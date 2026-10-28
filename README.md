@@ -14,6 +14,10 @@ The working path is:
 
 We should distinguish a philosopher's view from our reconstruction of it, and both from our own proposals. Claims about the literature should be checked against cited works. GPT's contributions are prompts for examination; examples, references, and quotations need verification before they enter a paper or chapter. Revisions should preserve the reasoning that led to a change of view when it is useful to the argument.
 
+## Chat format
+
+Files in `Chats/` should retain the form of a dialogue between a human and an AI agent, in the spirit of Plato's dialogues. Label the human speaker **Babak**. Label the AI speaker with its actual model name when known; if the model cannot be identified, use **AI** rather than guessing. Preserve the sequence of exchanges and the participants' distinct voices, including questions, hesitations, objections, and changes of mind. Light editing for readability is acceptable, but do not silently turn a conversation into an essay or attribute a claim to the wrong speaker.
+
 ## Repository structure
 
 | Path | Purpose |
