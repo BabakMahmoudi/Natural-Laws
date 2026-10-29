@@ -38,6 +38,3 @@
 
 **GPT-6:** The closest family is Humean descriptivism. Hume questioned our perception of necessary connections; Ramsey and Lewis treat laws as privileged generalizations in a system describing the world's facts. Lewis's mosaic and best-system account come especially close to the complete-history idea, though they add criteria for selecting laws. Huw Price's view from “nowhen” is relevant to your block-time perspective, but his central subject is temporal and causal asymmetry. Tim Maudlin offers a contrasting view: laws are primitive features of reality. Calling your argument a “block-universe version of Humean descriptivism” is my classification, not a doctrine you have adopted wholesale.
 
-**Babak:** The question for now is whether any extra law must be copied when the whole history has already been copied.
-
-**GPT-6:** And the live objection is whether a complete history can explain its own order, or whether the demand for such an explanation calls for something more. We have set the “why this shape?” question aside, not answered it.
