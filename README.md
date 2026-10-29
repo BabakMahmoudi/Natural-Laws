@@ -1,35 +1,64 @@
 # Philosophy of Natural Laws
 
-This repository is a place to develop a philosophical account of natural laws. The work begins with questions and conversations, then moves toward focused memos and, where the arguments warrant it, individual papers or chapters of a book. No final position or publication plan is assumed in advance.
+This repository develops an inquiry into the philosophy of natural laws. It begins in conversation and may grow into focused memos, individual papers, or chapters of a book. No final philosophical position or publication plan is assumed in advance.
 
-## Method
+## Method and roles
 
-Most of the initial work takes place in conversations with GPT. We use dialogue to clarify concepts, test examples, reconstruct arguments, raise objections, and revise tentative views. These conversations are working material, not finished arguments or authoritative sources.
+Babak brings intuitions, questions, doubts, examples, and especially a sense of how the world feels and appears to us. These are substantive starting points for philosophical inquiry, not merely requests for explanations. The AI agent brings access to accumulated knowledge in the philosophical and scientific literature: concepts, historical positions, arguments, distinctions, and possible objections. Its role is to help articulate and test ideas, identify relevant sources, and challenge weak steps constructively. It should not replace Babak's judgment or present its own synthesis as his settled view.
+
+Dialogue is the primary place where ideas emerge and change. The AI should listen to the particular question being pursued, stay with it when Babak asks to focus, and make room for uncertainty and reflection. It should distinguish what a philosopher actually argued, its own reconstruction of that argument, and new proposals made in the conversation. Disagreement and self-correction are part of the record.
 
 The working path is:
 
-1. **Dialogues** preserve exploratory discussions and their context.
-2. **Memos** organize useful ideas into focused questions, arguments, objections, and open problems. A memo may draw on several dialogues and should make clear what remains unsettled.
-3. **Papers and book chapters** develop selected memos into sustained, independently readable work. A memo need not become a publication, and a chapter or paper may combine several memos.
+1. **Dialogues** preserve the exploratory exchange and the development of its questions.
+2. **Memos** extract and organize a focused problem, argument, objections, and open questions from one or more dialogues.
+3. **Papers and book chapters** develop selected memos into sustained, independently readable work. A memo need not become a publication; a paper or chapter may combine several memos.
 
-We should distinguish a philosopher's view from our reconstruction of it, and both from our own proposals. Claims about the literature should be checked against cited works. GPT's contributions are prompts for examination; examples, references, and quotations need verification before they enter a paper or chapter. Revisions should preserve the reasoning that led to a change of view when it is useful to the argument.
+## Instructions for AI agents
 
-## Dialogue format
+Read this README and the relevant existing artifacts before creating or revising files. Follow the user's current directions when they refine this method. Treat the repository as a developing philosophical inquiry, and preserve uncertainty where the argument remains unsettled.
 
-Files in `Dialogs/` should retain the form of a dialogue between a human and an AI agent, in the spirit of Plato's dialogues. Label the human speaker **Babak**. Label the AI speaker with its actual model name when known; if the model cannot be identified, use **AI** rather than guessing. Preserve the sequence of exchanges and the participants' distinct voices, including questions, hesitations, objections, and changes of mind. Light editing for readability is acceptable, but do not silently turn a conversation into an essay or attribute a claim to the wrong speaker.
+### General writing rules
+
+- Write clear, precise prose. Define technical terms when they become necessary; use concrete examples to expose a distinction or test an argument, not as substitutes for an argument.
+- Preserve the origin of claims. Do not invent quotations, citations, facts about a philosopher's position, model identities, or statements by Babak. Mark an interpretation, inference, or speculative proposal as such.
+- Verify references and quotations against sources before presenting them as established. Keep provisional references explicitly provisional and record useful sources in `Resources.md`.
+- Retain serious objections and unresolved tensions. Do not smooth a live disagreement into a conclusion merely to make the writing look finished.
+- Link a memo to its source dialogues, and a paper or chapter to the memos it develops. When revising a position, make the change and its reason intelligible.
+- Before saving, check the artifact against the rules for its type below and report any important gaps or unverified claims.
+
+### Dialogues (`Dialogs/`)
+
+Retain the form of an exchange between a human and an AI agent, in the spirit of Plato's dialogues. Label the human speaker **Babak**. Label the AI speaker with its actual model name when known; otherwise use **AI**. Keep the sequence and distinct voices, including questions, hesitation, objections, clarification, and changes of mind. Light editing for readability is permitted, but do not silently turn the exchange into an essay, fabricate turns, or attribute a claim to the wrong speaker. If a substantial passage is reconstructed rather than transcribed, say so in a brief editorial note.
+
+### Memos (`Memos/`)
+
+Use a focused, analytical voice rather than a transcript. State the question and why it matters; reconstruct the strongest current argument; identify assumptions, objections, alternative readings, and what remains open. Separate Babak's proposals from the AI's suggestions and from views in the literature. Link the relevant dialogues and sources. A memo captures a stage of inquiry, not necessarily a verdict.
+
+### Papers (`Papers/`)
+
+Write for a reader who has not seen the dialogues. Give the paper a clear thesis or research question, a sustained argument, engagement with relevant literature and objections, and a conclusion proportionate to what has been established. Provide checked citations and a bibliography. Do not promote exploratory claims into established results without examination.
+
+### Book (`Book/`)
+
+Make chapters independently intelligible while developing a coherent argument across the book. Explain each chapter's role, maintain consistent terminology, avoid unnecessary repetition, and connect its conclusions and open questions to neighboring chapters. Preserve the project's exploratory character where the subject warrants it; do not impose a unified doctrine before one has been earned.
+
+### Resources (`Resources.md`)
+
+Record bibliographic details, links, and brief notes on relevance. Distinguish primary texts from commentary and unverified leads. A link or an AI recollection alone is not evidence that a source supports a claim.
 
 ## Repository structure
 
 | Path | Purpose |
 | --- | --- |
-| `README.md` | Overall idea, method, and working instructions. |
+| `README.md` | Overall idea, method, and instructions for AI agents. |
 | `Resources.md` | Information about and links to relevant books, papers, and other resources. |
-| `Dialogs/` | Records of conversations that generate and test ideas. |
-| `Memos/` | Focused, organized notes developed from the dialogues. |
+| `Dialogs/` | Dialogues that generate and test ideas. |
+| `Memos/` | Focused analyses developed from the dialogues. |
 | `Papers/` | Drafts of individual papers. |
 | `Book/` | Draft chapters and other material for a possible book. |
 
-The directories will be populated as material is prepared. When a memo develops from a dialogue, link back to the relevant dialogue; when a paper or chapter develops from memos, link to those memos. This keeps the development of an argument traceable without forcing exploratory dialogue into a finished form.
+The directories will be populated as material is prepared.
 
 ## Current questions
 
