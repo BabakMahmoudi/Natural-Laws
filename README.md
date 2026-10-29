@@ -33,7 +33,7 @@ Retain the form of an exchange between a human and an AI agent, in the spirit of
 
 ### Memos (`Memos/`)
 
-Use a focused, analytical voice rather than a transcript. State the question and why it matters; reconstruct the strongest current argument; identify assumptions, objections, alternative readings, and what remains open. Separate Babak's proposals from the AI's suggestions and from views in the literature. Link the relevant dialogues and sources. A memo captures a stage of inquiry, not necessarily a verdict.
+Keep each memo short: normally three or four concise paragraphs. It should record the main takeaways from a particular dialogue, not reproduce the exchange or attempt a full paper. State the question and the insight or position reached, give the main reason for it, and note the most important objection or open question. Preserve uncertainty where the dialogue did not settle an issue. Distinguish Babak's proposals from the AI's suggestions and from views in the literature. Link the source dialogue and any sources actually used. A memo captures a stage of inquiry, not necessarily a verdict.
 
 ### Papers (`Papers/`)
 
