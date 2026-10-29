@@ -1,5 +1,7 @@
 # Copying a Universe: What Must Be Copied for a Law to Be There?
 
+*AI-generated essay (model not identified). Developed from dialogues with Babak Mahmoudi; Babak’s review or endorsement of this text has not been established.*
+
 *Developed from [The Law and the Shape of a World](../Dialogs/2026-10-29-law-and-shape-of-a-world.md) and [Laws as Descriptions of a Complete History](../Memos/Laws-as-Descriptions-of-a-Complete-History.md). This essay explores a proposal; it does not present a new theory of laws.*
 
 Suppose we commission a maker to copy a small part of the universe: a sealed region containing two particles, A and B, moving at constant velocities. We ask for more than a model that looks right in a photograph. We want the region itself, including its motions, recreated. What exactly must the maker put there?
