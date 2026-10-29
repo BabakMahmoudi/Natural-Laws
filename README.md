@@ -1,6 +1,6 @@
 # Philosophy of Natural Laws
 
-This repository develops an inquiry into the philosophy of natural laws. It begins in conversation and may grow into focused memos, individual papers, or chapters of a book. No final philosophical position or publication plan is assumed in advance.
+This repository develops an inquiry into the philosophy of natural laws. It begins in conversation and may grow into focused memos, philosophical essays, occasional academic papers, or chapters of a book. No final philosophical position or publication plan is assumed in advance.
 
 ## Method and roles
 
@@ -12,7 +12,8 @@ The working path is:
 
 1. **Dialogues** preserve the exploratory exchange and the development of its questions.
 2. **Memos** extract and organize a focused problem, argument, objections, and open questions from one or more dialogues.
-3. **Papers and book chapters** develop selected memos into sustained, independently readable work. A memo need not become a publication; a paper or chapter may combine several memos.
+3. **Essays** develop selected insights into reflective, independently readable philosophical writing. They are the expected main form of developed work.
+4. **Papers and book chapters** may grow from essays and memos when a more formal argument or a longer, connected treatment is warranted. These paths are possibilities, not required stages.
 
 ## Instructions for AI agents
 
@@ -24,7 +25,7 @@ Read this README and the relevant existing artifacts before creating or revising
 - Preserve the origin of claims. Do not invent quotations, citations, facts about a philosopher's position, model identities, or statements by Babak. Mark an interpretation, inference, or speculative proposal as such.
 - Verify references and quotations against sources before presenting them as established. Keep provisional references explicitly provisional and record useful sources in `Resources.md`.
 - Retain serious objections and unresolved tensions. Do not smooth a live disagreement into a conclusion merely to make the writing look finished.
-- Link a memo to its source dialogues, and a paper or chapter to the memos it develops. When revising a position, make the change and its reason intelligible.
+- Link a memo to its source dialogues, and an essay, paper, or chapter to the material it develops. When revising a position, make the change and its reason intelligible.
 - Before saving, check the artifact against the rules for its type below and report any important gaps or unverified claims.
 
 ### Dialogues (`Dialogs/`)
@@ -34,6 +35,10 @@ Retain the form of an exchange between a human and an AI agent, in the spirit of
 ### Memos (`Memos/`)
 
 Keep each memo short: normally three or four concise paragraphs. It should record the main takeaways from a particular dialogue, not reproduce the exchange or attempt a full paper. State the question and the insight or position reached, give the main reason for it, and note the most important objection or open question. Preserve uncertainty where the dialogue did not settle an issue. Distinguish Babak's proposals from the AI's suggestions and from views in the literature. Link the source dialogue and any sources actually used. A memo captures a stage of inquiry, not necessarily a verdict.
+
+### Essays (`Essays/`)
+
+Write in the philosophical essay tradition: pursue a live question through reflection, examples, distinctions, and argument in an engaging authorial voice. Let Babak's intuitions and felt sense of the world give the inquiry its direction, while bringing relevant literature into conversation where it sharpens or challenges the thought. An essay may be exploratory and need not claim a conclusive thesis, but its movement should be intelligible and its claims accountable. Write for readers who have not seen the dialogues; transform material rather than merely summarizing a memo. Preserve unresolved questions when they matter. Check factual claims and quotations, cite sources used, and do not invent Babak's convictions or experiences.
 
 ### Papers (`Papers/`)
 
@@ -54,7 +59,8 @@ Record bibliographic details, links, and brief notes on relevance. Distinguish p
 | `README.md` | Overall idea, method, and instructions for AI agents. |
 | `Resources.md` | Information about and links to relevant books, papers, and other resources. |
 | `Dialogs/` | Dialogues that generate and test ideas. |
-| `Memos/` | Focused analyses developed from the dialogues. |
+| `Memos/` | Short takeaways developed from the dialogues. |
+| `Essays/` | Reflective philosophical essays developed from questions and memos. |
 | `Papers/` | Drafts of individual papers. |
 | `Book/` | Draft chapters and other material for a possible book. |
 
