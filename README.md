@@ -27,7 +27,7 @@ Every AI-generated artifact must begin, immediately after its title, with a visi
 
 - Write clear, precise prose. Define technical terms when they become necessary; use concrete examples to expose a distinction or test an argument, not as substitutes for an argument.
 - Preserve the origin of claims. Do not invent quotations, citations, facts about a philosopher's position, model identities, or statements by Babak. Mark an interpretation, inference, or speculative proposal as such.
-- Verify references and quotations against sources before presenting them as established. Keep provisional references explicitly provisional and record useful sources in `Resources.md`.
+- Verify references and quotations against sources before presenting them as established. Keep provisional references explicitly provisional and record useful sources in `References.md`.
 - Retain serious objections and unresolved tensions. Do not smooth a live disagreement into a conclusion merely to make the writing look finished.
 - Link a memo to its source dialogues, and an essay, paper, or chapter to the material it develops. When revising a position, make the change and its reason intelligible.
 - Before saving, check the artifact against the rules for its type below and report any important gaps or unverified claims.
@@ -52,7 +52,7 @@ Write for a reader who has not seen the dialogues. Give the paper a clear thesis
 
 Make chapters independently intelligible while developing a coherent argument across the book. Explain each chapter's role, maintain consistent terminology, avoid unnecessary repetition, and connect its conclusions and open questions to neighboring chapters. Preserve the project's exploratory character where the subject warrants it; do not impose a unified doctrine before one has been earned.
 
-### Resources (`Resources.md`)
+### References (`References.md`)
 
 Record bibliographic details, links, and brief notes on relevance. Distinguish primary texts from commentary and unverified leads. A link or an AI recollection alone is not evidence that a source supports a claim.
 
@@ -61,7 +61,7 @@ Record bibliographic details, links, and brief notes on relevance. Distinguish p
 | Path | Purpose |
 | --- | --- |
 | `README.md` | Overall idea, method, and instructions for AI agents. |
-| `Resources.md` | Information about and links to relevant books, papers, and other resources. |
+| `References.md` | Working bibliography and literature leads, with links to relevant project texts. |
 | `Dialogs/` | Dialogues that generate and test ideas. |
 | `Memos/` | Short takeaways developed from the dialogues. |
 | `Essays/` | Reflective philosophical essays developed from questions and memos. |
